@@ -2,7 +2,7 @@
 // Created by admin on 2023/5/21.
 //
 
-#include "thread_study.h"
+
 #include <iostream>
 #include <thread>
 

@@ -19,7 +19,7 @@ void thread_2(int x){
 }
 // detach方式，启动的线程自主在后台运行，当前的代码继续往下执行，不等待新线程结束。
 // join方式，等待启动的线程完成，才会继续往下执行。
-int main(){
+int main1(){
     thread first(thread_1);// 开启线程
     thread second (thread_2,100);// 开启线程
     cout<<"main thread"<<endl;

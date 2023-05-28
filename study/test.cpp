@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int main()
+int maintest()
 {
     int a = 10;
     int b = 20;
